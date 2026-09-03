@@ -1,0 +1,11 @@
+# Aliases
+alias v="nvim"
+alias bc="cd $HOME && nvim .bashrc"
+alias lv="NVIM_APPNAME=nvim/nvim-lazy/lazyvim nvim"
+alias neovide="NVIM_APPNAME=nvim/nvim-lazy/lazyvim neovide"
+alias astro="NVIM_APPNAME=nvim/astronvim nvim"
+alias dfs="c:/program\ files/git/bin/git.exe --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias lvc="$HOME/appdata/local/nvim/nvim-lazy/lazyvim/lua/config"
+alias lvp="$HOME/appdata/local/nvim/nvim-lazy/lazyvim/lua/plugins"
+alias fs="cd D:/dev/learning/typescript/fakeshop"
+alias pd="cd D:/dev/projectdiana"
