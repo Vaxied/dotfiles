@@ -1,0 +1,12 @@
+# Config & Dotfiles
+alias bc="cd $HOME && nvim .bashrc"
+alias neovide="NVIM_APPNAME=nvim/nvim-lazy/lazyvim neovide"
+alias dfs="c:/program\ files/git/bin/git.exe --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+# Neovim Config Navigation (Windows AppData path)
+alias lvc="cd $HOME/appdata/local/nvim/nvim-lazy/lazyvim/lua/config"
+alias lvp="cd $HOME/appdata/local/nvim/nvim-lazy/lazyvim/lua/plugins"
+
+# Project Directories (Windows drive letters)
+alias fs="cd D:/dev/learning/typescript/fakeshop"
+alias pd="cd D:/dev/projectdiana"

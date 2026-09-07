@@ -49,8 +49,15 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-# Source aliases
-[ -f "$HOME/.bash_aliases" ] && source "$HOME/.bash_aliases"
+# Load common aliases
+[ -f ~/.aliases_common ] && source ~/.aliases_common
+
+# Load platform-specific aliases
+if grep -qi microsoft /proc/version 2>/dev/null; then
+    [ -f ~/.aliases_wsl ] && source ~/.aliases_wsl
+else
+    [ -f ~/.aliases_win ] && source ~/.aliases_win
+fi
 
 # Crucial Options to stop the spam
 setopt APPEND_HISTORY      # Append to history file instead of overwriting

@@ -1,0 +1,11 @@
+# Config & Dotfiles
+alias bc="cd $HOME && nvim .bashrc"
+alias dfs="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+
+# Neovim Config Navigation (Linux standard path)
+alias lvc="cd $HOME/.config/nvim/nvim-lazy/lazyvim/lua/config"
+alias lvp="cd $HOME/.config/nvim/nvim-lazy/lazyvim/lua/plugins"
+
+# Project Directories (WSL mounted drives)
+alias fs="cd /mnt/d/dev/learning/typescript/fakeshop"
+alias pd="cd /mnt/d/dev/projectdiana"

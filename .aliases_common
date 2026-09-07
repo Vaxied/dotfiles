@@ -1,0 +1,4 @@
+# Shared Neovim distributions
+alias v="nvim"
+alias lv="NVIM_APPNAME=nvim/nvim-lazy/lazyvim nvim"
+alias astro="NVIM_APPNAME=nvim/astronvim nvim"
